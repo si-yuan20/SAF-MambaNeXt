@@ -1,6 +1,6 @@
 # SAF-MambaNeXt
 
-**SAF-MambaNeXt: A Dual-Stream Collaborative Network with Structure-Aided Attention and Uncertainty Perception for White Blood Cell Classification**
+**SAF-MambaNeXt: A Dual-Stream Collaborative Network with Structure-Aided Attention and Uncertainty Perception for Classification of White Blood Cell **
 
 This repository will provide the official implementation of **SAF-MambaNeXt**, a dual-stream collaborative deep learning framework for white blood cell (WBC) classification, integrating:
 - ConvNeXt for local morphological feature extraction,
