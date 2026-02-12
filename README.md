@@ -1,8 +1,8 @@
 # SAF-MambaNeXt
 
-**SAF-MambaNeXt: A Dual-Stream Collaborative Network with Structure-Aided Attention and Uncertainty Perception for Classification of White Blood Cell **
+**SAF-MambaNeXt: Uncertainty-Guided Heterogeneous Collaborative Learning for Reliable white blood cell Classification in Clinical Diagnostic Workflows **
 
-This repository will provide the official implementation of **SAF-MambaNeXt**, a dual-stream collaborative deep learning framework for white blood cell (WBC) classification, integrating:
+This repository will provide the official implementation of **SAF-MambaNeXt**, Uncertainty-Guided Heterogeneous Collaborative Learning for Reliable white blood cell Classification in Clinical Diagnostic Workflows, integrating:
 - ConvNeXt for local morphological feature extraction,
 - Mamba (State Space Model) for long-range dependency modeling,
 - Structure-Aided Attention Fusion (SAF) for edge-guided cross-branch interaction,
@@ -17,9 +17,9 @@ The code and processed datasets will be released **after the acceptance of the p
 
 If you use this work, please cite our paper:
 
-> SAF-MambaNeXt: A Dual-Stream Collaborative Network with Structure-Aided Attention and Uncertainty Perception for White Blood Cell Classification  
+> SAF-MambaNeXt: Uncertainty-Guided Heterogeneous Collaborative Learning for Reliable white blood cell Classification in Clinical Diagnostic Workflows 
 > Rong Gao, Qi Ke, Aiquan Li, Xingning Qin, Sichao Zhao  
-> *iScience*, 2026 (under review)
+> **, 2026 (under review)
 
 (Official citation and DOI will be updated after acceptance.)
 
