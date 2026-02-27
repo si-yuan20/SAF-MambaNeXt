@@ -30,15 +30,7 @@ If you use this work, please cite our paper:
 After acceptance, this repository will include:
 
 - ✅ Full training and evaluation code (PyTorch)
-- ✅ Implementation of:
-  - ConvNeXt branch
-  - Mamba branch
-  - SAF module
-  - UGBF module
-- ✅ Data preprocessing and augmentation scripts
-- ✅ Configuration files for experiments
 - ✅ Pretrained model weights
-- ✅ Reproduction scripts for all main results in the paper
 - ✅ Instructions for training, testing, and visualization (heatmaps, confusion matrices, etc.)
 
 ---
@@ -86,7 +78,6 @@ After release, you will be able to reproduce:
 
 ## 📦 Usage
 
-Examples (to be provided after release):
 
 ```bash
 # Training
@@ -94,6 +85,3 @@ python main.py \
   --data_dir /home/yiliao/medical/datasets/ImageClassify/Raabin-WBC \
   --model_name dual \
   --pretrained
-
----
-
