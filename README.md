@@ -9,7 +9,7 @@ This repository will provide the official implementation of **SAF-MambaNeXt**, U
 - Uncertainty-Guided Bilateral Fusion (UGBF) for reliability-aware decision fusion.
 
 📌 **Status**:  
-The code and processed datasets will be released **after the acceptance of the paper**.
+The model weights  will be released **after the acceptance of the paper**.
 
 ---
 
@@ -47,7 +47,7 @@ After acceptance, this repository will include:
 
 We will provide scripts to prepare and use the following public datasets:
 
-- **PBC** (Peripheral Blood Cell Dataset)
+- **PBC** 
 - **LDWBC**
 - **Raabin-WBC**
 
@@ -79,16 +79,17 @@ After release, you will be able to reproduce:
 
 ---
 
-## 📦 Usage (Coming Soon)
+## 📦 Usage
 
 Examples (to be provided after release):
 
 ```bash
 # Training
-python train.py --config configs/saf_mambanext.yaml
+python main.py \
+  --data_dir /home/yiliao/medical/datasets/ImageClassify/Raabin-WBC \
+  --model_name dual \
+  --pretrained
 
-# Evaluation
-python test.py --weights checkpoints/saf_mambanext.pth
-
-# Visualization
-python visualize.py --input sample.jpg
+## Acknowledgments
+```The authors would like to sincerely thank Acevedo et al., Chen et al., and Kouzehkanan et al. for their generously open-access white blood cell datasets. The public release of these high-quality annotated data has provided an essential foundation for the model training, validation, and comparative analysis in this study. Their valuable contributions have greatly promoted the development and clinical application exploration of automatic white blood cell recognition and classification techniques.
+```
