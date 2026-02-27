@@ -18,7 +18,7 @@ The model weights  will be released **after the acceptance of the paper**.
 If you use this work, please cite our paper:
 
 > SAF-MambaNeXt: Uncertainty-Guided Heterogeneous Collaborative Learning for Reliable white blood cell Classification in Clinical Diagnostic Workflows 
-> Rong Gao, Qi Ke, Aiquan Li, Xingning Qin, Sichao Zhao  
+> Rong Gao, Qi Ke, Aiquan Li, Xinning Qin, Sichao Zhao  
 > **, 2026 (under review)
 
 (Official citation and DOI will be updated after acceptance.)
