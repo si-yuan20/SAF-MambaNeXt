@@ -90,6 +90,8 @@ python main.py \
   --model_name dual \
   --pretrained
 
+---
+
 ## Acknowledgments
 ```The authors would like to sincerely thank Acevedo et al., Chen et al., and Kouzehkanan et al. for their generously open-access white blood cell datasets. The public release of these high-quality annotated data has provided an essential foundation for the model training, validation, and comparative analysis in this study. Their valuable contributions have greatly promoted the development and clinical application exploration of automatic white blood cell recognition and classification techniques.
 ```
