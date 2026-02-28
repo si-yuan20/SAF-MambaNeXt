@@ -39,9 +39,9 @@ After acceptance, this repository will include:
 
 We will provide scripts to prepare and use the following public datasets:
 
-- **PBC** 
-- **LDWBC**
-- **Raabin-WBC**
+- **PBC** ：https://www.kaggle.com/datasets/bzhbzh35/peripheral-blood-cell
+- **LDWBC** ：https://biod.whu.edu.cn/sjj.htm
+- **Raabin-WBC** ：https://www.kaggle.com/datasets/raabindata/raabin-wbc
 
 ⚠️ Due to dataset licenses, raw data will **not** be redistributed here.  
 We will provide:
