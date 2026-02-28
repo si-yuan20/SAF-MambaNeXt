@@ -455,7 +455,7 @@ class SAFFusion(nn.Module):
 
             nn.Dropout2d(p=dropout),
 
-            # 再来一组增强
+            
             nn.Conv2d(saf_dim, saf_dim, kernel_size=3, padding=1, groups=saf_dim, bias=False),
             nn.BatchNorm2d(saf_dim),
             nn.ReLU(inplace=True),
@@ -464,7 +464,7 @@ class SAFFusion(nn.Module):
             nn.ReLU(inplace=True),
         )
 
-        # 7) 最终 refinement（残差）
+        # 7) refinement
         self.refine = nn.Sequential(
             nn.Conv2d(saf_dim, saf_dim, kernel_size=3, padding=1, bias=False),
             nn.BatchNorm2d(saf_dim),
@@ -699,7 +699,7 @@ class DualConvNeXtMambaNet(nn.Module):
         self.num_classes = num_classes
         self.ab = ablation if ablation is not None else AblationConfig()
 
-        # 方便阅读
+        # 
         use_saf = bool(self.ab.use_saf and (self.ab.saf_prior != "none"))
         use_ugbf = bool(self.ab.use_ugbf)
 
@@ -1262,3 +1262,4 @@ def test_all():
 
 if __name__ == "__main__":
     test_all()
+
