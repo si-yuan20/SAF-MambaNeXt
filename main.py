@@ -333,7 +333,7 @@ def validate(model, loader, criterion, device, mode="Val"):
 
         tracker.update(loss, preds, probs, labels)
 
-    return tracker.compute(with_raw=True)  # 如果你后面要画混淆矩阵/ROC
+    return tracker.compute(with_raw=True)  
 
 
 
@@ -520,7 +520,7 @@ def main_worker(rank: int, world_size: int, port: int, args_namespace):
 
         device = torch.device(f"cuda:{rank}" if torch.cuda.is_available() else "cpu")
 
-        # 类别名
+        # 
         class_dirs = [d for d in os.listdir(cfg.data.data_dir) if os.path.isdir(os.path.join(cfg.data.data_dir, d))]
         class_dirs = sorted(class_dirs)
         num_classes = len(class_dirs)
@@ -740,3 +740,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
