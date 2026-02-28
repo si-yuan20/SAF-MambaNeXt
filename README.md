@@ -1,8 +1,8 @@
 # SAF-MambaNeXt
 
-**SAF-MambaNeXt: Uncertainty-Guided Heterogeneous Collaborative Learning for Reliable white blood cell Classification in Clinical Diagnostic Workflows **
+**SAF-MambaNeXt: Uncertainty-Guided Heterogeneous Collaborative Learning for White Blood Cell Classification with Clinical Application Potential **
 
-This repository will provide the official implementation of **SAF-MambaNeXt**, Uncertainty-Guided Heterogeneous Collaborative Learning for Reliable white blood cell Classification in Clinical Diagnostic Workflows, integrating:
+This repository will provide the official implementation of **SAF-MambaNeXt**, Uncertainty-Guided Heterogeneous Collaborative Learning for White Blood Cell Classification with Clinical Application Potential, integrating:
 - ConvNeXt for local morphological feature extraction,
 - Mamba (State Space Model) for long-range dependency modeling,
 - Structure-Aided Attention Fusion (SAF) for edge-guided cross-branch interaction,
@@ -17,7 +17,7 @@ The model weights  will be released **after the acceptance of the paper**.
 
 If you use this work, please cite our paper:
 
-> SAF-MambaNeXt: Uncertainty-Guided Heterogeneous Collaborative Learning for Reliable white blood cell Classification in Clinical Diagnostic Workflows 
+> SAF-MambaNeXt: Uncertainty-Guided Heterogeneous Collaborative Learning for White Blood Cell Classification with Clinical Application Potential
 > Rong Gao, Qi Ke, Aiquan Li, Xinning Qin, Sichao Zhao  
 > **, 2026 (under review)
 
